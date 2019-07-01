@@ -1,10 +1,11 @@
 {
-  "name": "React-Whole-barrels",
+  "name": "ReactWholebarrels",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config ./build/webpack.dev.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/Marcuslyj/React-Whole-barrels/issues"
   },
-  "homepage": "https://github.com/Marcuslyj/React-Whole-barrels#readme"
+  "homepage": "https://github.com/Marcuslyj/React-Whole-barrels#readme",
+  "devDependencies": {
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5"
+  }
 }
